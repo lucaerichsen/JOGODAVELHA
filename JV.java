@@ -14,9 +14,9 @@ public class JV {
       public String Mostrar(){
     for(int li=0; li<3; li++){
         for(int co=0; co<3; co++){
-            System.out.println("   "+ m[li] [co]);
+            System.out.print("   "+ m[li] [co]);
         }
-        System.out.println("/n");
+        System.out.println("\n");
     }
     return null;
 }//----------------------------------------------------------------
