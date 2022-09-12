@@ -43,15 +43,15 @@ public class Jogodavelha {
             }
             
             do{//Inicia jogador 2
-                System.out.println("Jogador 1, informe uma posição:");
+                System.out.println("Jogador 2, informe uma posição:");
                 posicao = ler.next();
                 while(!jogo.Valido(posicao)){
                     System.out.println("Jogada inválida, tente novamente!");
-                    System.out.println("Jogador 1, informe uma posição");
+                    System.out.println("Jogador 2, informe uma posição");
                     posicao = ler.next();
                     valida = 0;
                 }
-                jogo.Jogada(posicao, "X");
+                jogo.Jogada(posicao, "O");
                 valida = 1;
                 
             }while(valida == 0);//fim jogador 2
