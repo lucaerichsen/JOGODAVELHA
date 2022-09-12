@@ -64,7 +64,7 @@ public class Jogodavelha {
             }
             
         } //-----------------------------------------------------------
-        System.out.println("O"+jogo.Ganhou(Jogadas)+"Venceu!");
+        System.out.println("O "+jogo.Ganhou(Jogadas)+" Venceu!");
         
     }
 }
